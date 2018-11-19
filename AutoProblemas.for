@@ -1,6 +1,6 @@
-	SUBROUTINE AUTOPROBLEMA(A,M,N,IQ,ITER,RESFREQ,REST)
+﻿	SUBROUTINE AUTOPROBLEMA(A,M,N,IQ,ITER,RESFREQ,REST)
 ! input: A e M: matrizes de rigidez e massa da estrutura, iq aarq a ser impresso auto-respostas
-! output: A[,]: contem os autovetores, vetor da coluna i � o desloc da freq natural i; M[]:  contem os autovalores na 1a. coluna 
+! output: A[,]: contem os autovetores, vetor da coluna i é o desloc da freq natural i; M[]:  contem os autovalores na 1a. coluna 
 ! arquivo fort.55 imprime autovalores
       Real(8) A(N,N),M(N,N),RESFREQ(10),AUX
       Real(8), Allocatable :: AUTOVALOR(:), WORK(:)    
@@ -36,13 +36,11 @@
           !ENDIF         
       ENDDO
       
-      IF(IQ.NE.0)CALL PRINT_AUTOVALOR(AUTOVALOR,N,IQ,ITER)
-      
       ! guardando as 10 primeiras freq. naturais, dos gdl nao restritos:
       IO = 0
-  	!DO I=1,N
-	  !IF (REST(I).EQ.1)  IO = IO + 1                           
-   !   ENDDO   
+  	  DO I=1,N
+	  IF (REST(I).EQ.1)  IO = IO + 1
+      ENDDO
       J = 0
       DO I = IO+1,N
           IF(DABS(AUTOVALOR(I)-1.D0).GT.1E-6)THEN  
@@ -53,6 +51,8 @@
       ENDDO 
      
  678  CONTINUE
+      
+      IF(IQ.NE.0)CALL PRINT_AUTOVALOR(RESFREQ,J,IQ,ITER)
           
 !! NORMALIZANDO AUTOVETOR COM RELACAO A U(1)      
 !      IF(ITER.EQ.1)THEN

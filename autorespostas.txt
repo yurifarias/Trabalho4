@@ -1,19 +1,13 @@
- DATA:14-11-2018
- HORA:19:15:29
+ DATA:19-11-2018
+ HORA:14:09:46
 ITER =    1
  NR       Freq(rad/s)      Freq(Hz)
-AUTOVALOR(    1)=       1.000           0.159
-AUTOVALOR(    2)=       1.000           0.159
-AUTOVALOR(    3)=       1.000           0.159
-AUTOVALOR(    4)=       1.000           0.159
-AUTOVALOR(    5)=       1.000           0.159
-AUTOVALOR(    6)=       1.000           0.159
-AUTOVALOR(    7)=     249.106          39.647
-AUTOVALOR(    8)=     827.504         131.701
-AUTOVALOR(    9)=    1713.849         272.768
-AUTOVALOR(   10)=    1995.397         317.577
-AUTOVALOR(   11)=    2917.279         464.299
-AUTOVALOR(   12)=    3206.090         510.265
+AUTOVALOR(    1)=     249.106          39.647
+AUTOVALOR(    2)=     827.504         131.701
+AUTOVALOR(    3)=    1713.849         272.768
+AUTOVALOR(    4)=    1995.397         317.577
+AUTOVALOR(    5)=    2917.279         464.299
+AUTOVALOR(    6)=    3206.090         510.265
 
 
 
