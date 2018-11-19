@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{96AF1991-C7E3-4B04-AB2A-C246A424BCF7}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="Rotinas_Autos">
+		<File RelativePath=".\Rotinas_Autos\daxpy.f"/>
+		<File RelativePath=".\Rotinas_Autos\dcopy.f"/>
+		<File RelativePath=".\Rotinas_Autos\ddot.f"/>
+		<File RelativePath=".\Rotinas_Autos\dgemm.f"/>
+		<File RelativePath=".\Rotinas_Autos\dgemv.f"/>
+		<File RelativePath=".\Rotinas_Autos\dger.f"/>
+		<File RelativePath=".\Rotinas_Autos\disnan.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlacpy.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlae2.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlaed2.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlaev2.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlaisnan.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlamch.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlamrg.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlanst.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlansy.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlapy2.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlarf.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlarfb.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlarfg.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlarft.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlartg.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlascl.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlaset.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlasr.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlasrt.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlassq.f"/>
+		<File RelativePath=".\Rotinas_Autos\dlatrd.f"/>
+		<File RelativePath=".\Rotinas_Autos\dnrm2.f"/>
+		<File RelativePath=".\Rotinas_Autos\dorg2l.f"/>
+		<File RelativePath=".\Rotinas_Autos\dorg2r.f"/>
+		<File RelativePath=".\Rotinas_Autos\dorgql.f"/>
+		<File RelativePath=".\Rotinas_Autos\dorgqr.f"/>
+		<File RelativePath=".\Rotinas_Autos\dorgtr.f"/>
+		<File RelativePath=".\Rotinas_Autos\dpotrf.f"/>
+		<File RelativePath=".\Rotinas_Autos\dpotrf2.f"/>
+		<File RelativePath=".\Rotinas_Autos\drot.f"/>
+		<File RelativePath=".\Rotinas_Autos\dscal.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsteqr.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsterf.f"/>
+		<File RelativePath=".\Rotinas_Autos\dswap.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsyev.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsygs2.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsygst.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsygv.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsymm.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsymv.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsyr2.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsyr2k.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsyrk.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsytd2.f"/>
+		<File RelativePath=".\Rotinas_Autos\dsytrd.f"/>
+		<File RelativePath=".\Rotinas_Autos\dtrmm.f"/>
+		<File RelativePath=".\Rotinas_Autos\dtrmv.f"/>
+		<File RelativePath=".\Rotinas_Autos\dtrsm.f"/>
+		<File RelativePath=".\Rotinas_Autos\dtrsv.f"/>
+		<File RelativePath=".\Rotinas_Autos\idamax.f"/>
+		<File RelativePath=".\Rotinas_Autos\ieeeck.f"/>
+		<File RelativePath=".\Rotinas_Autos\iladlc.f"/>
+		<File RelativePath=".\Rotinas_Autos\iladlr.f"/>
+		<File RelativePath=".\Rotinas_Autos\ilaenv.f"/>
+		<File RelativePath=".\Rotinas_Autos\iparmq.f"/>
+		<File RelativePath=".\Rotinas_Autos\lsame.f"/>
+		<File RelativePath=".\Rotinas_Autos\xerbla.f"/></Filter>
+		<File RelativePath=".\AutoProblemas.for"/>
+		<File RelativePath=".\CVREAL.f90"/>
+		<File RelativePath=".\main.f90"/>
+		<File RelativePath=".\MMMASG.f90"/>
+		<File RelativePath=".\MMMASL.f90"/>
+		<File RelativePath=".\MMRIGG.f90"/>
+		<File RelativePath=".\MMRIGL.f90"/>
+		<File RelativePath=".\MMROT.f90"/>
+		<File RelativePath=".\MVDESL.f90"/>
+		<File RelativePath=".\MVESFG.f90"/>
+		<File RelativePath=".\MVESFL.f90"/>
+		<File RelativePath=".\RESTR.f90"/>
+		<File RelativePath=".\solver.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

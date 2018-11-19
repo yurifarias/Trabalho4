@@ -1,0 +1,23 @@
+Projeto Estruturas
+----------------------------------------------------------------------------------------------------
+Número de elementos
+3
+----------------------------------------------------------------------------------------------------
+Configuração dos elementos          Características físicas e geométricas                       Carregamentos distribuídos
+Elemento    Nó inicial  Nó final    Mod. El (MPa)   M. Esp (kg/m³)  Largura (m)     Altura (m)  Ni (kN/m)   Nf (kN/m)   Qi (kN/m)   Qf (N/m)
+1           1           2           25000.0         2500.0          0.30            0.40        0.0         0.0         -1.0        -1.0
+2           2           3           25000.0         2500.0          0.20            0.50        0.0         0.0         -2.0        -2.0
+3           3           4           25000.0         2500.0          0.30            0.40        0.0         0.0         -1.0        -1.0
+----------------------------------------------------------------------------------------------------
+Número de nos
+4
+----------------------------------------------------------------------------------------------------
+Configuração dos nós                Cargas nodais                       Restrições (TRUE/FALSE)
+No          X (m)       Y (m)       Fx (kN)     Fy (kN)     M (kNm)     Direção x   Direção y   Rotação     
+1           0.0         0.0         0.0         0.0         0.0         TRUE        TRUE        TRUE
+2           0.0         2.0         10.0        0.0         0.0         FALSE       FALSE       FALSE
+3           3.0         2.0         0.0         -5.0        0.0         FALSE       FALSE       FALSE
+4           3.0         0.0         0.0         0.0         0.0         TRUE        TRUE        TRUE
+----------------------------------------------------------------------------------------------------
+Matriz de massa (C: Consistente; L: Lumped)
+C
